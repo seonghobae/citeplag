@@ -1,6 +1,6 @@
 # Image to run Citeplag Frontend in a single docker instance.
 # A msql/maria db instance for the pmc oas files is still needed.
-FROM php:7.1
+FROM php:7.4.33
 LABEL maintainer="vincent.stange@uni-konstanz.de"
 
 # Expose the port nginx is reachable on
